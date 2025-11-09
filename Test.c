@@ -1,12 +1,19 @@
-#include<stdio.h>
+#include <iostream>
+
+
+using namespace std;
+
 int main()
 {
-    int n;
+    int a = 10;
+    int b = 20;
+    cout<<"A="<<a;
 
-    printf("Enter the Array Size : ");
-    scanf("%d",&n);
 
-    printf("%d",n);
+
+
+
 
     return 0;
 }
+

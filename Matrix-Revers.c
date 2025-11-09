@@ -35,7 +35,8 @@ int main()
         }
     }
     avrg = (sum/9);
-    printf("Average of The 1st Element is = %d\n",avrg);
+    printf("Average for 2 is = %d\n",avrg);
+    sum=0;
 
     //FOR 3
     for(int i = 0;i<3;i++)
@@ -46,7 +47,8 @@ int main()
         }
     }
     avrg = (sum/9);
-    printf("Average of The 1st Element is = %d\n",avrg);
+    printf("Average for 3 is = %d\n",avrg);
+    sum=0;
 
     //FOR 4
     for(int i = 0;i<3;i++)
@@ -54,10 +56,83 @@ int main()
         for(int j = 2;j<5;j++)
         {
             sum = (sum + matrix[i][j]);
-        }
+        }avrg = (sum/9);
     }
-    avrg = (sum/9);
-    printf("Average of The 1st Element is = %d",avrg);
+
+    printf("Average for 4 is = %d\n",avrg);
+    sum=0;
+
+    //FOR 5
+    for(int i = 1;i<4;i++)
+    {
+        for(int j = 0;j<3;j++)
+        {
+            sum = (sum + matrix[i][j]);
+        }avrg = (sum/9);
+    }
+
+    printf("Average for 5 is = %d\n",avrg);
+    sum=0;
+
+    //FOR 6
+    for(int i = 1;i<4;i++)
+    {
+        for(int j = 1;j<4;j++)
+        {
+            sum = (sum + matrix[i][j]);
+        }avrg = (sum/9);
+    }
+
+    printf("Average for 6 is = %d\n",avrg);
+    sum=0;
+
+    //FOR 7
+    for(int i = 1;i<4;i++)
+    {
+        for(int j = 2;j<5;j++)
+        {
+            sum = (sum + matrix[i][j]);
+        }avrg = (sum/9);
+    }
+
+    printf("Average for 7 is = %d\n",avrg);
+    sum=0;
+
+    //FOR 8
+    for(int i = 2;i<5;i++)
+    {
+        for(int j = 0;j<3;j++)
+        {
+            sum = (sum + matrix[i][j]);
+        }avrg = (sum/9);
+    }
+
+    printf("Average for 8 is = %d\n",avrg);
+    sum=0;
+
+    //FOR 9
+    for(int i = 2;i<5;i++)
+    {
+        for(int j = 1;j<4;j++)
+        {
+            sum = (sum + matrix[i][j]);
+        }avrg = (sum/9);
+    }
+
+    printf("Average for 9 is = %d\n",avrg);
+    sum=0;
+
+    //FOR 1
+    for(int i = 2;i<5;i++)
+    {
+        for(int j = 2;j<5;j++)
+        {
+            sum = (sum + matrix[i][j]);
+        }avrg = (sum/9);
+    }
+
+    printf("Average for 1 is = %d\n",avrg);
+    sum=0;
 
 
 
