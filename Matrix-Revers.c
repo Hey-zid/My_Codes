@@ -23,7 +23,7 @@ int main()
         printf("\n");
     }
 
-    printf ("\n\nAVERAGE FILTERING\n");
+    printf ("\n\nAVERAGE FILTERING\n\n");
 
     //FOR 2
 
